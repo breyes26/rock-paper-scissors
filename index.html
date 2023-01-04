@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/javascript.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="heading">
+            <h1 id="title">
+                Rock-Paper-Scissors
+            </h1>
+        
+        </div>
+        
+        <div class="scores">
+            <div id="player-box">
+                <div class="icon-score">
+                    <div class="img-wrap">
+                        <img class="icon" src="/images/userIcon.png">
+                    </div>
+                    <div class="score">0</div>
+                </div>
+                Player
+            </div>
+            
+            <div id="computer-box">
+               <div class="icon-score">
+                <div class="score">0</div>
+                <div class="img-wrap">
+                    <img class="icon" src="/images/computerIcon.png">
+                </div>
+               </div>
+                Computer
+            </div>
+        </div>
+        <div id="round-explanation">
+           
+        </div>
+        <h2 id="prompt">
+            Make your choice
+        </h2>
+        <div class="choices">
+            <button class="choice-btn" id="rock">
+                <div class="img-wrap">
+                    <img class="icon" src="/images/rockIcon.png" alt="Rock choice icon">
+                </div>
+            </button>
+            <button class="choice-btn" id="paper">
+                <div class="img-wrap">
+                    <img class="icon" src="/images/paperIcon.png" alt="Paper choice icon">
+                </div>
+            </button>
+            <button class="choice-btn" id="scissors">
+                <div class="img-wrap">
+                    <img class="icon" src="/images/scissorsIcon.png" alt="Scissors choice icon">
+                </div>
+            </button>
+        </div>
+       
+
+        <button id="reset">reset</button>
+        
+        
+    </div>
+</body>
+</html>

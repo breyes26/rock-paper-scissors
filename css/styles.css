@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+#reset{
+    background-color:rgb(6, 6, 52);
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+#title{
+    font-size: 60px;
+}
+
+#prompt{
+    font-size: 40px;
+}
+div.heading{
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button.choice-btn,
+#reset{
+    padding: 0px;
+    margin: 0px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(6, 6, 52);
+    outline: 1px solid white;
+    border-radius: 10px;
+    transition: all .07s ease;
+}
+
+div.choices{
+    width:20%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+ div.img-wrap{
+   display: flex;
+   width: auto;
+   height: 100%;
+   padding: 15px;
+   border-radius: 10px;
+   align-content: center;
+   justify-content: center;
+}
+
+
+
+
+ img.icon{
+    background-color: transparent;
+    width: auto;
+    height: 90%;
+}
+
+
+.hovered{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem rgb(64, 64, 133);
+    border-color: rgb(64, 64, 133)
+}
+
+div.scores{
+    display: flex;
+    gap: 20px;
+}
+
+
+div.icon-score{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: auto;
+    justify-content: space-between;
+    
+}
+
+#player-box div.img-wrap,
+#computer-box div.img-wrap{
+    justify-content: center;
+    padding: 0px;
+    width: 50%;
+    height: auto;
+}
+
+#player-box,
+#computer-box{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    outline-style: solid;
+    outline-color: white;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all .07s ease;
+}
+
+div.score{
+   height: auto;
+   width: 50%;
+   font-size: 40px;
+}
+
+#reset{
+    margin-top: 20px;
+    height: 25px;
+}
+
+#round-explanation{
+    margin-top: 50px;
+    width: 50%;
+    font-size: 25px;
+}
